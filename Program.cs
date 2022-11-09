@@ -11,6 +11,7 @@ namespace Autumn.File
         //=========================================================================================
         /// <summary>Defines the entry point of the application.</summary>
         /// <param name="args">The arguments.</param>
+        /// <created>L. Nicholas de Lioncourt</created>
         //========================================================================================= 
         static void Main(string [] args)
         {
