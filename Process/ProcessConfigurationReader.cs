@@ -12,6 +12,7 @@
     /// <summary>
     /// Finds and thereafter parses the Process.config into an instance of <see cref="ProcessConfiguration"/>.
     /// </summary>
+    /// <created>l. nicholas de lioncourt</created>
     //=============================================================================================
     [System.Diagnostics.DebuggerDisplay("ProcessConfigurationReader Instance Key=[{Key}] Initialized=[{__isinitialized}]")]
     internal sealed class ProcessConfigurationReader
