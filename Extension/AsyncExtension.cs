@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Autumn.File
 {
+    //=============================================================================================
+    /// <summary>Async extension methods.</summary>
+    /// <created>L. Nicholas de Lioncourt</created>
+    //=====================================================================================LNDL====
     internal static class AsyncExtension
     {
         public static Task EachAsync<T>(this IEnumerable<T> source, int parallelism, Func<T, Task> body)
