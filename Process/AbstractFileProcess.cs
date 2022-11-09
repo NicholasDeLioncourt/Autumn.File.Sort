@@ -9,6 +9,7 @@
     /// Represents some action to be taken upon a list of <see cref="ProcessConfiguration"/> instances 
     /// within the <see cref="ProcessConfiguration"/>.
     /// </summary>
+    /// <created>l. nicholas de lioncourt</created>
     //=============================================================================================
     [System.Diagnostics.DebuggerDisplay("AbstractFileProcess Instance Key=[{Key}]")]
     internal abstract class AbstractFileProcess
