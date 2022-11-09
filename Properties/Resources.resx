@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ExceptionArgumentEmpty" xml:space="preserve">
+    <value>The parameter [{0}] was passed as an empty element which is not permitted in this context.</value>
+  </data>
+  <data name="ExceptionDictionaryBaseIndex" xml:space="preserve">
+    <value>AbstractDictionary&lt;TKey, TValue&gt;[int] access violation: when IsIndexed is false, you may not access items by numeric index.</value>
+  </data>
+  <data name="ExceptionExifDateParseFail" xml:space="preserve">
+    <value>The EXIF tag contains a DateTime that was not understood: [{0}]</value>
+  </data>
+  <data name="ExceptionExifDateTagNotFound" xml:space="preserve">
+    <value>The EXIF tag for DateTime Taken, DateTime Modified or DateTime Digitized was not found</value>
+  </data>
+  <data name="ExceptionFileMoveThenDelete" xml:space="preserve">
+    <value>Cannot move file to be deleted ([{0}] -&gt; [{1}]) due to (see inner exception): {2}</value>
+  </data>
+  <data name="ExceptionFileSystemFileInfoNull" xml:space="preserve">
+    <value>The source System.IO.FileInfo was null which is not permitted when calling instance properties.</value>
+  </data>
+  <data name="ExceptionFirstOrDefaultNullParam" xml:space="preserve">
+    <value>The FirstOrDefault extension cannot accept null for the [{0}] parameter.</value>
+  </data>
+  <data name="ExceptionFirstWhereOrDefault" xml:space="preserve">
+    <value>The FirstWhereOrDefault extension cannot accept null for the [{0}] parameter.</value>
+  </data>
+  <data name="ExceptionFullPathNotValid" xml:space="preserve">
+    <value>The path and file [{0}] does not represent an existing file.</value>
+  </data>
+  <data name="ExceptionImageFormat" xml:space="preserve">
+    <value>The image file [{0}] threw an error: [{1}]</value>
+  </data>
+  <data name="ExceptionIndexOutOfRange" xml:space="preserve">
+    <value>The index [{0}] was out of range. The index must be non-negative and less than the size of the collection [{1}].</value>
+  </data>
+  <data name="ExceptionLockTimeout" xml:space="preserve">
+    <value>Monitor.TryEnter: The lock could not be attained after {0} milliseconds</value>
+  </data>
+  <data name="ExceptionLockTimeout1" xml:space="preserve">
+    <value>Monitor.TryEnter: The lock could not be attained after {0} milliseconds</value>
+  </data>
+  <data name="ExceptionParamArrayNull" xml:space="preserve">
+    <value>The array passed to this method is null which is not permitted; please pass an initialized array.</value>
+  </data>
+  <data name="ExceptionParserOnCompleteNull" xml:space="preserve">
+    <value>Cannot parse value [{0}] when parameter oncomplete is null since there would be no way to return the result.</value>
+  </data>
+  <data name="ExceptionProcessConfigNotFound" xml:space="preserve">
+    <value>The configuration file, [{0}], could not be found; please ensure this file is in the same directory as the application itself.</value>
+  </data>
+  <data name="ExceptionProcessConfigSettingsNotFound" xml:space="preserve">
+    <value>The configuration for this application was not found. The cause could be malformed XML, an empty configuration file or the configuration file, [{0}], has been moved.</value>
+  </data>
+  <data name="ExceptionPropertyNotFound" xml:space="preserve">
+    <value>{0}: the property or field you attempted to access, [{1}], could not be found in type [{2}].</value>
+  </data>
+  <data name="ExceptionReadFileActionPathNull" xml:space="preserve">
+    <value>ReadFileAction: the file path was null or empty</value>
+  </data>
+  <data name="ExceptionReadLockDenied" xml:space="preserve">
+    <value>ReadLock: could not establish exclusive read lock access for more than {0} milliseconds</value>
+  </data>
+  <data name="ExceptionReadOnlyObject" xml:space="preserve">
+    <value>This object is read-only and may not be modified</value>
+  </data>
+  <data name="ExceptionReadOnlyProperty" xml:space="preserve">
+    <value>This property is read-only and may not be modified</value>
+  </data>
+  <data name="ExceptionRequireArgumentIsNotNull" xml:space="preserve">
+    <value>Requirement failed: the provided argument [{0}] was null which is not permitted</value>
+  </data>
+  <data name="ExceptionRequireArgumentIsNotNullOrEmpty" xml:space="preserve">
+    <value>Requirement failed: the provided argument [{0}] was null or empty which is not permitted</value>
+  </data>
+  <data name="ExceptionRequireIsNotNull" xml:space="preserve">
+    <value>Requirement failed: [the provided value was null which is not permitted] {0}</value>
+  </data>
+  <data name="ExceptionRequireIsNotNullOrEmpty" xml:space="preserve">
+    <value>Requirement failed: [the provided value was null or empty which is not permitted] {0}</value>
+  </data>
+  <data name="ExceptionSearchIsRecursiveNotFound" xml:space="preserve">
+    <value>The controller cannot continue the process since it cannot determine whether the source path search is recursive or not; the required key [{0}] or its value was not provided.</value>
+  </data>
+  <data name="ExceptionSettingSourceKeyNotFound" xml:space="preserve">
+    <value>The controller cannot continue the process due to missing data and/or key: [{0}]. A valid source directory must be provided.</value>
+  </data>
+  <data name="ExceptionSourceNullEmpty" xml:space="preserve">
+    <value>{0}: the provided source cannot be null or empty</value>
+  </data>
+  <data name="ExceptionSourcePathNotFound" xml:space="preserve">
+    <value>The controller cannot continue the process because the source path provided was not found (invalid): [{0}]. A valid source directory must be provided.</value>
+  </data>
+  <data name="ExceptionWriteLockDenied" xml:space="preserve">
+    <value>WriteLock: could not establish exclusive write lock access for more than {0} milliseconds</value>
+  </data>
+  <data name="FormatCommaSepPair" xml:space="preserve">
+    <value>{0},{1}</value>
+  </data>
+  <data name="FormatDelimitedDefault" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="FormatDuplicateSuffix" xml:space="preserve">
+    <value>{0}-duplicate-{1}.{2}</value>
+  </data>
+  <data name="FormatExceptionMessage" xml:space="preserve">
+    <value>Exception [{0}] Message [{1}]\r\n Stack [{2}]</value>
+  </data>
+  <data name="FormatExifDateTime" xml:space="preserve">
+    <value>yyyy:MM:d H:m:s</value>
+  </data>
+  <data name="FormatFileExtension" xml:space="preserve">
+    <value>.{0}</value>
+  </data>
+  <data name="FormatFileProcessComplete" xml:space="preserve">
+    <value>File Index [{0}] of Total [{1}]: processing complete for file [{2}] original name [{3}]</value>
+  </data>
+  <data name="FormatFileXml" xml:space="preserve">
+    <value>{0}.xml</value>
+  </data>
+  <data name="FormatKeyValueDefault" xml:space="preserve">
+    <value>{0} = {1}</value>
+  </data>
+  <data name="FormatKeyValueSet" xml:space="preserve">
+    <value>[{0},{1}]</value>
+  </data>
+  <data name="FormatPair" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="FormatRejectedDateTime" xml:space="preserve">
+    <value>_yyyyMMdd_hhmmssff</value>
+  </data>
+  <data name="FormatTriple" xml:space="preserve">
+    <value>{0}{1}{2}</value>
+  </data>
+  <data name="KeyWildcardAllFiles" xml:space="preserve">
+    <value>*.*</value>
+  </data>
+</root>
