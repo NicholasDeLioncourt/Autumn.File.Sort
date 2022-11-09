@@ -18,6 +18,7 @@
     /// an image, the folder name will be the date on which the image was taken (EXIF Date Time Taken);
     /// otherwise, the folder name is that of the file name without the file extension.
     /// </summary>
+    /// <created>l. nicholas de lioncourt</created>
     //=============================================================================================
     [System.Diagnostics.DebuggerDisplay("ProcessFolderName Instance Key=[{Key}] Initialized=[{__isinitialized}]")]
     internal sealed class ProcessFolderName : AbstractFileProcess
